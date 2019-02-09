@@ -30,6 +30,7 @@ func GetImage(fname, url, api_key string) error {
 	if err != nil {
 		return errors.Wrap(err, "Error creating request")
 	}
+	req.NoResume = true
 	req.HTTPRequest.Header.Set("Authorization", fmt.Sprintf("Bearer %s", api_key))
 	resp := client.Do(req)
 	if err := resp.Err(); err != nil {
