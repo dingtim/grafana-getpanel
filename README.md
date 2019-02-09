@@ -1,2 +1,2 @@
 # grafana-getpanel
-A simple example of how to get a grafana panel as a png image
+A simple example of how to download a grafana panel as a png image
