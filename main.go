@@ -1,5 +1,5 @@
 // Get a panel as png from grafana
-// click on "share image" / "get direct link rendered image" to get the proper url
+// in grafana go to the panel and click on "share image" / "get direct link rendered image" to get the proper url
 package main
 
 import (
