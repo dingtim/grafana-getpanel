@@ -12,7 +12,9 @@ import (
 )
 
 func main() {
+	// example url
 	url := `http://localhost:3000/render/d-solo/6cE6Zmuiz/hitachi-copy?orgId=1&from=1549413887954&to=1549457721344&panelId=15&width=1000&height=500&tz=Europe%2FKiev`
+	// exmaple key
 	api_key := "eyJrIjoidjBnNG5OMEw2QnBpTW1KRjMzdE00NzdKUjFuMDZjSTAiLCJuIjoia2V5MSIsImlkIjoxfQ=="
 	fname := "image.png"
 	if err := GetImage(fname, url, api_key); err != nil {
